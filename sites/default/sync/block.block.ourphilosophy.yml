@@ -1,0 +1,31 @@
+uuid: c185536d-0c88-4812-bac2-df0d9fcd6d8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_fltt_block:07c49878-f47a-4de9-8f9e-f7b49dd3dea7'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: ourphilosophy
+theme: showcaseplus
+region: content_top
+weight: -66
+provider: null
+plugin: 'block_content:07c49878-f47a-4de9-8f9e-f7b49dd3dea7'
+settings:
+  id: 'block_content:07c49878-f47a-4de9-8f9e-f7b49dd3dea7'
+  label: 'Our Philosophy'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

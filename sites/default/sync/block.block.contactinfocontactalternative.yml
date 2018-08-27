@@ -1,0 +1,31 @@
+uuid: e03c5492-9dbf-4909-9e54-23c1ac1c5f3b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:48fbea80-8467-467e-9934-c0418a4c77ce'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: contactinfocontactalternative
+theme: showcaseplus
+region: content_top_highlighted
+weight: -68
+provider: null
+plugin: 'block_content:48fbea80-8467-467e-9934-c0418a4c77ce'
+settings:
+  id: 'block_content:48fbea80-8467-467e-9934-c0418a4c77ce'
+  label: 'Contact Info (Contact Alternative)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact/alternative
+    negate: false
+    context_mapping: {  }

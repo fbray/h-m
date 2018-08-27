@@ -1,0 +1,31 @@
+uuid: 69ff297f-2f22-47b9-8c00-b750df2ca551
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:5ba05c39-ab10-48cf-acfd-586b73dc5254'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: backgroundimageblockblog
+theme: showcaseplus
+region: banner
+weight: -59
+provider: null
+plugin: 'block_content:5ba05c39-ab10-48cf-acfd-586b73dc5254'
+settings:
+  id: 'block_content:5ba05c39-ab10-48cf-acfd-586b73dc5254'
+  label: 'Background image block - Blog'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/articles-2-col\r\n/articles-3-col\r\n/articles-list\r\n/articles-list-2\r\n/articles"
+    negate: false
+    context_mapping: {  }

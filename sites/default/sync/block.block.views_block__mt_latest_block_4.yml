@@ -1,0 +1,30 @@
+uuid: 47b4b38e-ab60-4a01-b375-fcf617373e02
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest
+  module:
+    - system
+    - views
+  theme:
+    - showcaseplus
+id: views_block__mt_latest_block_4
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -45
+provider: null
+plugin: 'views_block:mt_latest-block_4'
+settings:
+  id: 'views_block:mt_latest-block_4'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

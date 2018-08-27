@@ -1,0 +1,31 @@
+uuid: 59c5de11-9b4c-4dd4-aeb1-aa1320cba44f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d3c5868b-e0ca-43fd-9e80-828ad308eea5'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: aboutme
+theme: showcaseplus
+region: content_top
+weight: -67
+provider: null
+plugin: 'block_content:d3c5868b-e0ca-43fd-9e80-828ad308eea5'
+settings:
+  id: 'block_content:d3c5868b-e0ca-43fd-9e80-828ad308eea5'
+  label: 'About me'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/16\r\n/node/17\r\n/node/40\r\n/node/53\r\n/node/54\r\n/node/55\r\n/node/59\r\n/blocks\r\n/alternative-footer\r\n/mega-menu"
+    negate: false
+    context_mapping: {  }

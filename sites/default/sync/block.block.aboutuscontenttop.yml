@@ -1,0 +1,31 @@
+uuid: 4a57d01f-e1c8-4788-9522-2799bc3882a7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:44813299-f24c-44fa-8ebe-0559527c493b'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: aboutuscontenttop
+theme: showcaseplus
+region: content_top
+weight: -69
+provider: null
+plugin: 'block_content:44813299-f24c-44fa-8ebe-0559527c493b'
+settings:
+  id: 'block_content:44813299-f24c-44fa-8ebe-0559527c493b'
+  label: 'About Us (Content Top)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /team-members-3
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: de77accd-bb72-43fb-85e1-c772dedc216b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:76ebbc61-2adf-4137-a427-ed7f09fb2975'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: testimonialscarousel_2
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -69
+provider: null
+plugin: 'block_content:76ebbc61-2adf-4137-a427-ed7f09fb2975'
+settings:
+  id: 'block_content:76ebbc61-2adf-4137-a427-ed7f09fb2975'
+  label: 'Testimonials Carousel'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/16\r\n/node/17\r\n/node/40\r\n/node/53\r\n/node/54\r\n/node/55\r\n/node/59\r\n/blocks\r\n/about-us\r\n/alternative-footer\r\n/mega-menu"
+    negate: false
+    context_mapping: {  }

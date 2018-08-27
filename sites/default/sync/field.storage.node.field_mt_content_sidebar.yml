@@ -1,0 +1,19 @@
+uuid: aec4545e-1ead-4034-a525-97bc73ce3ff2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_mt_content_sidebar
+field_name: field_mt_content_sidebar
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

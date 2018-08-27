@@ -1,0 +1,30 @@
+uuid: 5d14354f-1e7d-472e-a30b-862332d12c4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_products
+  module:
+    - system
+    - views
+  theme:
+    - showcaseplus
+id: views_block__mt_products_block_1
+theme: showcaseplus
+region: featured_bottom
+weight: -68
+provider: null
+plugin: 'views_block:mt_products-block_1'
+settings:
+  id: 'views_block:mt_products-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/16\r\n/node/17\r\n/node/40\r\n/node/53\r\n/node/54\r\n/node/55\r\n/node/59\r\n/blocks\r\n/alternative-footer\r\n/mega-menu"
+    negate: false
+    context_mapping: {  }

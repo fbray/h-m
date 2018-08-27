@@ -1,0 +1,25 @@
+uuid: f25650f2-07b5-491e-a9fa-84418d88ab87
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3e1f0843-139a-4022-ba15-6f58e8dc554e'
+  module:
+    - block_content
+  theme:
+    - showcaseplus
+id: aboutusbanner
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -57
+provider: null
+plugin: 'block_content:3e1f0843-139a-4022-ba15-6f58e8dc554e'
+settings:
+  id: 'block_content:3e1f0843-139a-4022-ba15-6f58e8dc554e'
+  label: 'About Us (Banner)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

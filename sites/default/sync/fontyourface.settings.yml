@@ -1,0 +1,7 @@
+enabled_fonts:
+  5: 'http://www.google.com/webfonts/family?family=Oswald&subset=latin#300'
+  6: 'http://www.google.com/webfonts/family?family=Oswald&subset=latin#regular'
+  7: 'http://www.google.com/webfonts/family?family=Open Sans&subset=latin#regular'
+load_all_enabled_fonts: 1
+_core:
+  default_config_hash: r8uAx4mTBwCkgDFbdKCmhjgbb91BQ4HbWSYRKrlowMY

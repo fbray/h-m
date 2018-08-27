@@ -1,0 +1,31 @@
+uuid: 52d800d8-0bb7-481a-92b7-f1c65e092063
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:e80f5d6d-71f6-4bf3-8fa1-bfcf51bfdecd'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: backgroundimageblockservices
+theme: showcaseplus
+region: banner
+weight: -56
+provider: null
+plugin: 'block_content:e80f5d6d-71f6-4bf3-8fa1-bfcf51bfdecd'
+settings:
+  id: 'block_content:e80f5d6d-71f6-4bf3-8fa1-bfcf51bfdecd'
+  label: 'Background image block - Services'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/services-3-col\r\n/services-2-col\r\n/services-list\r\n/services-isotope"
+    negate: false
+    context_mapping: {  }

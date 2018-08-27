@@ -1,0 +1,27 @@
+uuid: 0d3743cc-68a7-4142-a1f6-871db8fcdc22
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - showcaseplus
+_core:
+  default_config_hash: xBHd0GP4cB6x3fM0PeyeuoO4qZs26k7pTs_f3RRNooA
+id: showcaseplus_page_title
+theme: showcaseplus
+region: content
+weight: -63
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/35\r\n/node/16\r\n/node/17\r\n/node/40\r\n/node/53\r\n/node/54\r\n/node/55\r\n/node/59\r\n/products-3-col/*\r\n/contact/alternative\r\n/showcases-3-col\r\n/showcases-2-col\r\n/pricing-tables\r\n/about-us\r\n/investors\r\n/services-3-col\r\n/services-2-col\r\n/services-list\r\n/services-isotope\r\n/products-2-col\r\n/products-3-col\r\n/products-isotope\r\n/products-list\r\n/products-masonry\r\n/showcases-2-col\r\n/showcases-3-col\r\n/showcases-3-col-style-2\r\n/showcases-isotope\r\n/articles-2-col\r\n/articles-3-col\r\n/articles-list\r\n/articles-list-2\r\n/articles\r\n/alternative-footer\r\n/mega-menu"
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,24 @@
+uuid: 911fe8c7-b2de-4475-b9c5-62351f64aa76
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.mt-subfooter-menu
+  module:
+    - system
+  theme:
+    - showcaseplus
+id: showcaseplus_subfooter
+theme: showcaseplus
+region: slideout
+weight: -40
+provider: null
+plugin: 'system_menu_block:mt-subfooter-menu'
+settings:
+  id: 'system_menu_block:mt-subfooter-menu'
+  label: Subfooter
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

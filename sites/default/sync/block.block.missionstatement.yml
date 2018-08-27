@@ -1,0 +1,31 @@
+uuid: 4f2fcb9f-bb2e-4f3b-8d5f-f02a54a6a0cd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4224bf4e-5b54-491e-933c-d50d52daf4f0'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: missionstatement
+theme: showcaseplus
+region: content
+weight: -55
+provider: null
+plugin: 'block_content:4224bf4e-5b54-491e-933c-d50d52daf4f0'
+settings:
+  id: 'block_content:4224bf4e-5b54-491e-933c-d50d52daf4f0'
+  label: 'Mission Statement'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

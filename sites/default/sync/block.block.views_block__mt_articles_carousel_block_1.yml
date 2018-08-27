@@ -1,0 +1,30 @@
+uuid: 6956856b-f328-4fba-9ef7-3b76692963de
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_articles_carousel
+  module:
+    - system
+    - views
+  theme:
+    - showcaseplus
+id: views_block__mt_articles_carousel_block_1
+theme: showcaseplus
+region: content_top_highlighted
+weight: -66
+provider: null
+plugin: 'views_block:mt_articles_carousel-block_1'
+settings:
+  id: 'views_block:mt_articles_carousel-block_1'
+  label: 'From Our Blog'
+  provider: views
+  label_display: visible
+  views_label: 'From Our Blog'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/16\r\n/node/17\r\n/node/40\r\n/node/53\r\n/node/54\r\n/node/55\r\n/node/59\r\n/blocks\r\n/alternative-footer\r\n/mega-menu"
+    negate: false
+    context_mapping: {  }

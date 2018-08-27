@@ -1,0 +1,30 @@
+uuid: c1a7bb42-ab8d-4abd-b9bf-f30fb12b1cf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_popular_tags
+  module:
+    - system
+    - views
+  theme:
+    - showcaseplus
+id: showcaseplus_views_block__mt_popular_tags_block_1
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -43
+provider: null
+plugin: 'views_block:mt_popular_tags-block_1'
+settings:
+  id: 'views_block:mt_popular_tags-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

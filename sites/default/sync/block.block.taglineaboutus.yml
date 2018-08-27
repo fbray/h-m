@@ -1,0 +1,31 @@
+uuid: a2affbef-61eb-4edf-bbcf-0802aa739afd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:66ae8f81-a2ce-440e-bb6a-2621655d3673'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: taglineaboutus
+theme: showcaseplus
+region: content
+weight: -56
+provider: null
+plugin: 'block_content:66ae8f81-a2ce-440e-bb6a-2621655d3673'
+settings:
+  id: 'block_content:66ae8f81-a2ce-440e-bb6a-2621655d3673'
+  label: 'Tag Line - About Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

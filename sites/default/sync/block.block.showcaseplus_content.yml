@@ -1,0 +1,22 @@
+uuid: a812831c-a3a5-4f85-8957-fccd79780f9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - showcaseplus
+_core:
+  default_config_hash: YQ-fRDLDMWjcucmDRSM7zvULfn_QWbiU9MrPxX8gDoI
+id: showcaseplus_content
+theme: showcaseplus
+region: content
+weight: -59
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

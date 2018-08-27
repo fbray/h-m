@@ -1,0 +1,27 @@
+uuid: 6fdecfbe-3920-4e8c-b845-534811078574
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - showcaseplus
+_core:
+  default_config_hash: 1iNL-1N0dw4694Codkm-tKkkUSDESWvUvZEab9Y3cx8
+id: showcaseplus_breadcrumbs
+theme: showcaseplus
+region: banner
+weight: -53
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/35\r\n/node/17\r\n/node/16\r\n/node/40\r\n/node/53\r\n/node/54\r\n/node/55\r\n/node/59\r\n/about-us\r\n/services-4-col\r\n/services-3-col\r\n/services-2-col\r\n/services-list\r\n/services-isotope\r\n/products-2-col\r\n/products-3-col\r\n/products-4-col\r\n/products-isotope\r\n/products-list\r\n/products-masonry\r\n/showcases-2-col\r\n/showcases-3-col\r\n/showcases-4-col\r\n/showcases-3-col-style-2\r\n/showcases-isotope\r\n/articles-2-col\r\n/articles-3-col\r\n/articles-4-col\r\n/articles-list\r\n/articles-list-2\r\n/articles\r\n/contact/alternative\r\n/contact\r\n/alternative-footer\r\n/mega-menu"
+    negate: true
+    context_mapping: {  }

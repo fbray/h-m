@@ -1,0 +1,31 @@
+uuid: 9ac1c04a-2a65-49a9-9eaf-0b0eb96e18f4
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:f80a84a8-6e49-4b3c-a2a8-2dec831316dc'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: backgroundimageblockcta_2
+theme: showcaseplus
+region: featured
+weight: -69
+provider: null
+plugin: 'block_content:f80a84a8-6e49-4b3c-a2a8-2dec831316dc'
+settings:
+  id: 'block_content:f80a84a8-6e49-4b3c-a2a8-2dec831316dc'
+  label: 'Background image block - CtA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

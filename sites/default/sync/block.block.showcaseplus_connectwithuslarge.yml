@@ -1,0 +1,33 @@
+uuid: a76d00d4-20f6-428c-be2e-1c2296bd20bf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:01709e04-065c-478c-9e73-863194306720'
+  module:
+    - block_content
+    - node
+  theme:
+    - showcaseplus
+id: showcaseplus_connectwithuslarge
+theme: showcaseplus
+region: sidebar_second
+weight: -66
+provider: null
+plugin: 'block_content:01709e04-065c-478c-9e73-863194306720'
+settings:
+  id: 'block_content:01709e04-065c-478c-9e73-863194306720'
+  label: 'Connect With Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      mt_team_member: mt_team_member
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

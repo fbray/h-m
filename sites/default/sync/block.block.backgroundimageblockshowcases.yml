@@ -1,0 +1,31 @@
+uuid: 797ec356-0840-434d-9e2c-9c1357bb6089
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:3d285e09-44b4-43f4-82c3-0afeba0d64b3'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: backgroundimageblockshowcases
+theme: showcaseplus
+region: banner
+weight: -55
+provider: null
+plugin: 'block_content:3d285e09-44b4-43f4-82c3-0afeba0d64b3'
+settings:
+  id: 'block_content:3d285e09-44b4-43f4-82c3-0afeba0d64b3'
+  label: 'Background image block - Showcases'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/showcases-2-col\r\n/showcases-3-col\r\n/showcases-3-col-style-2\r\n/showcases-isotope"
+    negate: false
+    context_mapping: {  }

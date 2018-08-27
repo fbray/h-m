@@ -1,0 +1,25 @@
+uuid: 28c51b7c-1f7f-41b5-a85b-d9eeb9b64d2d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:047c6269-692d-4de1-b952-8aa5706d1161'
+  module:
+    - block_content
+  theme:
+    - showcaseplus
+id: contactusbanner
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -55
+provider: null
+plugin: 'block_content:047c6269-692d-4de1-b952-8aa5706d1161'
+settings:
+  id: 'block_content:047c6269-692d-4de1-b952-8aa5706d1161'
+  label: 'Contact Us (Banner)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

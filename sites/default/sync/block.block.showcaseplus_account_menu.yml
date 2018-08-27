@@ -1,0 +1,26 @@
+uuid: 30c23576-1b9d-44af-87b8-5614cf261448
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - showcaseplus
+_core:
+  default_config_hash: 37Ptg2U5PE5cMHueJhYYE8lteKDqA_ZYmI9JDU2YyqA
+id: showcaseplus_account_menu
+theme: showcaseplus
+region: slideout
+weight: -38
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

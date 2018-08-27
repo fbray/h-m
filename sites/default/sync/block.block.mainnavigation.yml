@@ -1,0 +1,29 @@
+uuid: f0fd08d6-733d-42a4-bf3c-9e657a66d144
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - showcaseplus
+id: mainnavigation
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -46
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blocks\r\n"
+    negate: false
+    context_mapping: {  }

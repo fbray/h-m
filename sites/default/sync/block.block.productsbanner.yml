@@ -1,0 +1,25 @@
+uuid: 4a0b21ce-b625-4bd3-b092-a62e8c2a89f6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c94a27f-fc67-46b3-8d8d-d2c189703e6b'
+  module:
+    - block_content
+  theme:
+    - showcaseplus
+id: productsbanner
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -53
+provider: null
+plugin: 'block_content:7c94a27f-fc67-46b3-8d8d-d2c189703e6b'
+settings:
+  id: 'block_content:7c94a27f-fc67-46b3-8d8d-d2c189703e6b'
+  label: 'Products (Banner)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

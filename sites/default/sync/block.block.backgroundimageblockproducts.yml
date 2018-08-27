@@ -1,0 +1,31 @@
+uuid: b5a1c053-c9ed-4cca-8580-3b096a9161ac
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:00297784-2f78-41fb-bad4-a17a6086194a'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: backgroundimageblockproducts
+theme: showcaseplus
+region: banner
+weight: -57
+provider: null
+plugin: 'block_content:00297784-2f78-41fb-bad4-a17a6086194a'
+settings:
+  id: 'block_content:00297784-2f78-41fb-bad4-a17a6086194a'
+  label: 'Background image block - Products'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/products-2-col\r\n/products-3-col\r\n/products-isotope\r\n/products-list\r\n/products-masonry"
+    negate: false
+    context_mapping: {  }

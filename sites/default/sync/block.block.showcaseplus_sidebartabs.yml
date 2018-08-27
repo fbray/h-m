@@ -1,0 +1,31 @@
+uuid: 7b86bef0-2ad3-4730-b783-b603e23e35b4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_tabs_block:ef75ff4d-5049-4e15-91f2-89e64289799e'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: showcaseplus_sidebartabs
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -47
+provider: null
+plugin: 'block_content:ef75ff4d-5049-4e15-91f2-89e64289799e'
+settings:
+  id: 'block_content:ef75ff4d-5049-4e15-91f2-89e64289799e'
+  label: 'Sidebar tabs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: 0373232a-7e04-4015-8a07-6e8be401d67a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:320d6b1f-5e74-42ce-b528-1f9cdef00d18'
+  module:
+    - block_content
+  theme:
+    - showcaseplus
+id: blogbanner
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -56
+provider: null
+plugin: 'block_content:320d6b1f-5e74-42ce-b528-1f9cdef00d18'
+settings:
+  id: 'block_content:320d6b1f-5e74-42ce-b528-1f9cdef00d18'
+  label: 'Blog (Banner)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

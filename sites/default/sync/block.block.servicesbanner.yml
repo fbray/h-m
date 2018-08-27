@@ -1,0 +1,25 @@
+uuid: 3656254d-672b-4abb-9ac9-253386048eae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:394535b0-97bb-4c5d-984c-ab95f7604ca4'
+  module:
+    - block_content
+  theme:
+    - showcaseplus
+id: servicesbanner
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -51
+provider: null
+plugin: 'block_content:394535b0-97bb-4c5d-984c-ab95f7604ca4'
+settings:
+  id: 'block_content:394535b0-97bb-4c5d-984c-ab95f7604ca4'
+  label: 'Services (Banner)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

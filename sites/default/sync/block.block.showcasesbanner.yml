@@ -1,0 +1,25 @@
+uuid: 327e7a9e-47a8-4a35-8845-6cc5d808ad62
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b93b1305-a421-42eb-8250-bc7f5b06eafe'
+  module:
+    - block_content
+  theme:
+    - showcaseplus
+id: showcasesbanner
+theme: showcaseplus
+region: hidden_blocks_collection
+weight: -50
+provider: null
+plugin: 'block_content:b93b1305-a421-42eb-8250-bc7f5b06eafe'
+settings:
+  id: 'block_content:b93b1305-a421-42eb-8250-bc7f5b06eafe'
+  label: 'Showcases (Banner)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: e191ac3b-9f01-4a75-8c88-85e52b6d1259
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_background_image_block:0bd7ea47-55d1-4d86-882e-00082b54faab'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcaseplus
+id: backgroundimageblockcontactus
+theme: showcaseplus
+region: banner
+weight: -58
+provider: null
+plugin: 'block_content:0bd7ea47-55d1-4d86-882e-00082b54faab'
+settings:
+  id: 'block_content:0bd7ea47-55d1-4d86-882e-00082b54faab'
+  label: 'Background image block - Contact Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact/alternative
+    negate: false
+    context_mapping: {  }
