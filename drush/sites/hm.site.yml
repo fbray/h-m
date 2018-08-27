@@ -1,0 +1,18 @@
+# This is a placeholder file used to track when hm.aliases.drushrc.php was converted.
+# If you delete hm.aliases.drushrc.php, then you may delete this file. 
+
+prod:
+  host: southpawnotes.com
+  root: /home1/southpg4/public_html/hagadonemartin
+  uri: hagadonemartin.com
+  user: southpg4
+  paths:
+    drush-script: '/home1/southpg4/public_html/hagadonemartin/vendor/bin/drush'
+
+local:
+  uri: troy.martin:8888
+  commands:
+    sql:
+      dump:
+        options:
+          structure-tables-key: common
