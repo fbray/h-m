@@ -464,7 +464,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"article-header\">\n<div class=\"views-field-title\"><h5>{{ title }}</h5></div>\n<div class=\"article-meta\">\n<span class=\"article-meta-item\">by {{ name }}</span>\n<span class=\"article-meta-item\">{{ created }}</span>\n<span class=\"article-meta-item\"><a href=\"{{ path }}\">{{ comment_count }}</a></span>\n</div>\n</div>"
+            text: "<div class=\"article-header\">\n<div class=\"views-field-title\"><h5>{{ title }}</h5></div>\n<div class=\"article-meta\">\n<span class=\"article-meta-item\">by {{ name }}</span>\n<span class=\"article-meta-item\">{{ created }}</span>\n</div>\n</div>"
             make_link: false
             path: ''
             absolute: false
