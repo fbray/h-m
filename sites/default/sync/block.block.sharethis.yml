@@ -1,0 +1,36 @@
+uuid: c885f5eb-aaf5-450f-8fc5-d25e96a161e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+    - sharethis_block
+  theme:
+    - showcaseplus
+id: sharethis
+theme: showcaseplus
+region: sidebar_second
+weight: 0
+provider: null
+plugin: sharethis
+settings:
+  id: sharethis
+  label: sharethis
+  provider: sharethis_block
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

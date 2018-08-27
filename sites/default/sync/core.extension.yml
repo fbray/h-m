@@ -36,6 +36,7 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  sharethis_block: 0
   shortcut: 0
   superfish: 0
   system: 0
